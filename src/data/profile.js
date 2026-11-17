@@ -2,7 +2,7 @@ export const profile = {
   fullName: "Maudatul Mufidah",
   shortName: "Fida",
   role: "Information Technology Student",
-  headline: "Web Developer Enthusiast",
+  headline: "Web n Mobile Developer Enthusiast",
   location: "Jawa Timur, Indonesia",
   email: "mauddaff@gmail.com", // Isi email aktif jika ingin menampilkannya di website.
   // Gunakan format internasional tanpa tanda +, spasi, atau strip. Contoh: 6281234567890
@@ -32,40 +32,72 @@ export const projects = [
     number: "01",
     title: "IngatBayar",
     category: "Personal Project · Web App",
+    image: "/public/project1.png",
+    url: "https://bill-reminder-mauda.netlify.app/",
     description:
       "Aplikasi pengingat tagihan dengan fitur tambah, ubah, hapus, pencarian, filter, dan dark mode. Data disimpan di browser menggunakan localStorage.",
     stack: ["Bootstrap", "Vanilla JS", "localStorage"],
-    tone: "butter",
+    tone: "pink",
     icon: "◷",
   },
   {
     number: "02",
-    title: "Job Seeker Portal",
-    category: "Academic Project · CRUD",
+    title: "Desain UI/UX Aplikasi Pembayaran",
+    image: "/public/project2.png",
+    url: "https://medium.com/@mauddaff/merancang-finease-pengalaman-pembayaran-digital-yang-aman-nyaman-dan-terkontrol-13ca1f382e8a",
+    category: "Academy Group Project · UI/UX",
     description:
-      "Website sederhana untuk mengelola informasi lowongan dan data pencari kerja dengan operasi CRUD.",
-    stack: ["PHP", "MySQL", "HTML/CSS"],
+      "Merancang alur pembayaran dan antarmuka (mockup & prototype) menggunakan Figma berdasarkan riset kebutuhan pengguna dan skenario penggunaan.",
+    stack: ["UI/UX", "Figma", "Medium"],
     tone: "sky",
     icon: "↗",
   },
   {
     number: "03",
     title: "Library Visitor System",
+    image: "/public/project3.png",
+    url:"",
     category: "Academic Project · Web System",
     description:
       "Sistem pencatatan pengunjung perpustakaan sebagai latihan pengolahan data dan integrasi database.",
     stack: ["PHP", "MySQL", "Bootstrap"],
-    tone: "pink",
+    tone: "mint",
     icon: "▤",
   },
   {
     number: "04",
-    title: "Tourism Website",
-    category: "Academic Project · Website",
+    title: "ReidCourt",
+    image:"/public/project4.png",
+    url:"",
+    category: "Academy Group Project · Website",
     description:
-      "Website informasi wisata yang menyajikan destinasi dan informasi pendukung dalam tampilan yang mudah dijelajahi.",
-    stack: ["HTML", "CSS", "JavaScript"],
+      "Website pemesanan lapangan badminton dan menyediakan persewaan shuttlecoock dan raket di kabupaten Madiun yang terintegrasi dengan MidTrans.",
+    stack: ["Laravel", "MySQL", "MidTrans"],
     tone: "mint",
+    icon: "⌁",
+  },
+  {
+    number: "05",
+    title: "GAS Kita",
+    image:"/public/project5.png",
+    url:"",
+    category: "Academy Group Project · Mobile App",
+    description:
+      "Mobile Application yang menyajikan informasi ketersediaan kebutuhan GAS Elpigi dengan tampilan yang sederhana",
+    stack: ["Kotlin"],
+    tone: "butter",
+    icon: "⌁",
+  },
+  {
+    number: "06",
+    title: "KampusFound",
+    image:"/public/project6.png",
+    url:"",
+    category: "Academy Group Project · Mobile App",
+    description:
+      "Aplikasi yang digunakan untuk mencari dan melaporkan barang yang hilang disekitar Kampus.",
+    stack: ["Flutter", ],
+    tone: "sky",
     icon: "⌁",
   },
 ];
@@ -92,5 +124,6 @@ export const education = [
 export const certificates = [
   "BNSP — Junior Web Developer (VSGA Kominfo, 2025)",
   "IBM SkillsBuild × Hacktiv8 — Code Generation & Optimization Using IBM Granite (Agt 2025)",
-  "AWS re/Start Graduate — (Sep, 2026) ",
+  "AWS re/Start Graduate Batch 15 — (Sep, 2026) ",
+  "Semifinalis Cyber Security PORSIMAPTAR 2026"
 ];
