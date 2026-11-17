@@ -38,7 +38,7 @@ export const projects = [
     tone: "pink",
     icon: "◷",
 
-    image: "/public/project/project1.png",
+    image: "/project/project1.png",
     url: "https://bill-reminder-mauda.netlify.app/",
   },
   {
@@ -51,7 +51,7 @@ export const projects = [
     tone: "sky",
     icon: "↗",
 
-    image: "/public/project/project2.png",
+    image: "/project/project2.png",
     url: "https://medium.com/@mauddaff/merancang-finease-pengalaman-pembayaran-digital-yang-aman-nyaman-dan-terkontrol-13ca1f382e8a",
   },
   {
@@ -64,7 +64,7 @@ export const projects = [
     tone: "mint",
     icon: "▤",
 
-    image: "/public/project/project3.png",
+    image: "/project/project3.png",
     url:"",
   },
   {
@@ -77,7 +77,7 @@ export const projects = [
     tone: "mint",
     icon: "⌁",
 
-    image:"/public/project/project4.png",
+    image:"/project/project4.png",
     url:"",
   },
   {
@@ -90,7 +90,7 @@ export const projects = [
     tone: "butter",
     icon: "⌁",
 
-    image:"/public/project/project5.png",
+    image:"/project/project5.png",
     url:"",
   },
   {
@@ -103,7 +103,7 @@ export const projects = [
     tone: "sky",
     icon: "⌁",
 
-    image:"/public/project/project6.png",
+    image:"/project/project6.png",
     url:"",
   },
 ];
