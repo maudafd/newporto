@@ -32,73 +32,79 @@ export const projects = [
     number: "01",
     title: "IngatBayar",
     category: "Personal Project · Web App",
-    image: "/public/project1.png",
-    url: "https://bill-reminder-mauda.netlify.app/",
     description:
       "Aplikasi pengingat tagihan dengan fitur tambah, ubah, hapus, pencarian, filter, dan dark mode. Data disimpan di browser menggunakan localStorage.",
     stack: ["Bootstrap", "Vanilla JS", "localStorage"],
     tone: "pink",
     icon: "◷",
+
+    image: "/public/project/project1.png",
+    url: "https://bill-reminder-mauda.netlify.app/",
   },
   {
     number: "02",
     title: "Desain UI/UX Aplikasi Pembayaran",
-    image: "/public/project2.png",
-    url: "https://medium.com/@mauddaff/merancang-finease-pengalaman-pembayaran-digital-yang-aman-nyaman-dan-terkontrol-13ca1f382e8a",
     category: "Academy Group Project · UI/UX",
     description:
       "Merancang alur pembayaran dan antarmuka (mockup & prototype) menggunakan Figma berdasarkan riset kebutuhan pengguna dan skenario penggunaan.",
     stack: ["UI/UX", "Figma", "Medium"],
     tone: "sky",
     icon: "↗",
+
+    image: "/public/project/project2.png",
+    url: "https://medium.com/@mauddaff/merancang-finease-pengalaman-pembayaran-digital-yang-aman-nyaman-dan-terkontrol-13ca1f382e8a",
   },
   {
     number: "03",
     title: "Library Visitor System",
-    image: "/public/project3.png",
-    url:"",
     category: "Academic Project · Web System",
     description:
       "Sistem pencatatan pengunjung perpustakaan sebagai latihan pengolahan data dan integrasi database.",
     stack: ["PHP", "MySQL", "Bootstrap"],
     tone: "mint",
     icon: "▤",
+
+    image: "/public/project/project3.png",
+    url:"",
   },
   {
     number: "04",
     title: "ReidCourt",
-    image:"/public/project4.png",
-    url:"",
     category: "Academy Group Project · Website",
     description:
       "Website pemesanan lapangan badminton dan menyediakan persewaan shuttlecoock dan raket di kabupaten Madiun yang terintegrasi dengan MidTrans.",
     stack: ["Laravel", "MySQL", "MidTrans"],
     tone: "mint",
     icon: "⌁",
+
+    image:"/public/project/project4.png",
+    url:"",
   },
   {
     number: "05",
     title: "GAS Kita",
-    image:"/public/project5.png",
-    url:"",
     category: "Academy Group Project · Mobile App",
     description:
       "Mobile Application yang menyajikan informasi ketersediaan kebutuhan GAS Elpigi dengan tampilan yang sederhana",
     stack: ["Kotlin"],
     tone: "butter",
     icon: "⌁",
+
+    image:"/public/project/project5.png",
+    url:"",
   },
   {
     number: "06",
     title: "KampusFound",
-    image:"/public/project6.png",
-    url:"",
     category: "Academy Group Project · Mobile App",
     description:
       "Aplikasi yang digunakan untuk mencari dan melaporkan barang yang hilang disekitar Kampus.",
     stack: ["Flutter", ],
     tone: "sky",
     icon: "⌁",
+
+    image:"/public/project/project6.png",
+    url:"",
   },
 ];
 
